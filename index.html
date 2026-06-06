@@ -44,11 +44,6 @@
                         <li><a href="#video">Delayota</a></li>
                         <li><a href="#blog">Karawitan</a></li>
 						<li><a href="#contact">Nara Hubung</a></li>
-						<li><a href="login/index.html">Login</a></li>
-						<p id="userInfo">Belum Login</p>
-						<div id="authArea">
-    						<button type="button" class="nav-cta" onclick="window.location.href='login/index.html';">Login</button>
-						</div>
                     </ul>
                 </nav>
             </div>
@@ -102,14 +97,11 @@
                             Narahubung
                         </a>
                     </li>
-					<li>
-                        <a href="login/index.html" onclick="window.location.href='login/index.html'; return false;">
-        					<span class="rect"></span>
-        					<span class="circle"></span>
-        					Login
-    					</a>
-                    </li>
-                </ul>
+					<p id="userInfo">Belum login</p>
+					<div id="authArea">
+						<button onclick="goLogin()" class="naav-cta">Login</button>
+					</div>
+				</ul>
             </nav>
             <ul class="social-icons">
                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
